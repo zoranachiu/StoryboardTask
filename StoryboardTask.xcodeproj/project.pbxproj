@@ -13,6 +13,7 @@
 		C8247A82288B8B3500DA2023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8247A80288B8B3500DA2023 /* Main.storyboard */; };
 		C8247A84288B8B3600DA2023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8247A83288B8B3600DA2023 /* Assets.xcassets */; };
 		C8247A87288B8B3600DA2023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8247A85288B8B3600DA2023 /* LaunchScreen.storyboard */; };
+		C8F53217288EB25700A5006F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F53216288EB25700A5006F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C8247A83288B8B3600DA2023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8247A86288B8B3600DA2023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8247A88288B8B3600DA2023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F53216288EB25700A5006F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C8247A79288B8B3500DA2023 /* StoryboardTask */ = {
 			isa = PBXGroup;
 			children = (
+				C8F53216288EB25700A5006F /* HomeViewController.swift */,
 				C8247A7A288B8B3500DA2023 /* AppDelegate.swift */,
 				C8247A7C288B8B3500DA2023 /* SceneDelegate.swift */,
 				C8247A7E288B8B3500DA2023 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				C8247A7F288B8B3500DA2023 /* ViewController.swift in Sources */,
 				C8247A7B288B8B3500DA2023 /* AppDelegate.swift in Sources */,
 				C8247A7D288B8B3500DA2023 /* SceneDelegate.swift in Sources */,
+				C8F53217288EB25700A5006F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
