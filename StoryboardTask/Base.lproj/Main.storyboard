@@ -744,6 +744,9 @@ Cg
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VGA-ZN-Dx4">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundImage="navigation">
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -787,6 +790,7 @@ Cg
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xXD-6a-tvh">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundImage="navigation"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -805,7 +809,7 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-0f-POP">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-0f-POP">
                                 <rect key="frame" x="0.0" y="113" width="390" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -888,6 +892,7 @@ Cg
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0qj-PP-Rqa">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundImage="navigation"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1607,6 +1612,7 @@ Cg
         <image name="jeans" width="25" height="25"/>
         <image name="jeans_select2" width="25" height="25"/>
         <image name="list-shirt1" width="826" height="1168"/>
+        <image name="navigation" width="1654" height="860"/>
         <image name="pants-1" width="172" height="179"/>
         <image name="pants-2" width="172" height="178"/>
         <image name="pants-3" width="172" height="178"/>
